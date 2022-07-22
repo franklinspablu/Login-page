@@ -9,7 +9,9 @@ body {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  background-color: #bdbdbd;
+  background-color: #eaf0fb;
+  backdrop-filter: blur(5px);
+  background-image: url("code.jpg");
 }
 
 .inFormBackground {
@@ -19,7 +21,7 @@ body {
 .inFormBackground,
 .inLoginForm {
   width: 25rem;
-  height: 20rem;
+  height: 25rem;
   max-width: 320px;
   position: relative;
 }
@@ -29,15 +31,16 @@ body {
   top: 50%;
   left: 50%;
   width: 20rem;
-  height: 26rem;
+  height: 30rem;
   max-width: 320px;
   position: absolute;
   padding: 50px 35px;
   backdrop-filter: blur(5px);
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 2.5px rgba(8, 7, 16, 0.6);
+  box-shadow: 0 0 3px rgba(8, 7, 16, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: #FFF9FB;
+  border-radius: 6px;
 }
 
 form * {
@@ -50,9 +53,10 @@ form * {
 
 .title {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 22px;
   text-align: center;
+
 }
 
 .inputGroup label {
@@ -71,7 +75,7 @@ form * {
   font-size: 14px;
   font-weight: 300;
   border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0.07);
+  background-color: #D3D4D9;
 }
 ::placeholder {
   color:#000000
@@ -80,54 +84,20 @@ form * {
   width: 100%;
   z-index: 1;
   margin-top: 15px;
-  color: #fff;
+  color: #FFF9FB;
   padding: 15px 0;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 2.5px;
+  border-radius: 3px;
   position: relative;
-  background: #5f6ea8;
+  background: #4B88A2;
 }
 
 .submitForm:hover {
   color: #45538e;
 }
-
-
-.social {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
-}
-
-.social div {
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  cursor: pointer;
-  color: #eaf0fb;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.27);
-}
-
-.social div:hover {
-  background-color: rgba(255, 255, 255, 0.47);
-}
-
-.social .fb {
-  margin-left: 25px;
-}
-
-.social .tw {
-  margin-left: 25px;
-}
-
-
 
 form .content{
   display: flex;
@@ -148,12 +118,12 @@ form .content{
   padding-top: 1px;
 }
 form .remember-me {
-  padding-right: 1.5px;
+  padding-top: 20px;
 }
 form .content label{
   color: #000000;
   user-select: none;
-  padding-right: 1px;
+  padding-top: 20px;
   margin: auto;
   justify-content: flex-start;
 }
@@ -161,7 +131,7 @@ form .content label{
 form .pass-link{
   display: flex;
   margin: auto;
-  padding-top: 1px;
+  padding-top: 10px;
   justify-content: right;
 }
 
@@ -169,6 +139,49 @@ form .signup-link{
   color: #121212;
   margin-top: 20px;
   text-align: center;
+}
+
+form .body-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+hr .divider {
+  height: 30px;
+}
+
+.social {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social div {
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  cursor: pointer;
+  color: #D3D4D9;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(127, 124, 124, 0.27);
+}
+
+.social div:hover {
+  background-color: rgba(255, 255, 255, 0.47);
+}
+
+.social .fb {
+  margin-left: 25px;
+}
+
+.social .tw {
+  margin-left: 25px;
 }
 
 form .pass-link a,
