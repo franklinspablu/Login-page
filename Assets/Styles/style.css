@@ -166,7 +166,7 @@ hr .divider {
   display: flex;
   cursor: pointer;
   color: #D3D4D9;
-  border-radius: 12px;
+  border-radius: 3px;
   align-items: center;
   justify-content: center;
   background-color: rgba(127, 124, 124, 0.27);
