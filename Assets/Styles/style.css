@@ -58,6 +58,41 @@ form * {
   text-align: center;
 
 }
+@media (max-width: 768px)
+.login__l-or:after, .login__l-or:before {
+    width: 45%;
+}
+.login__l-or:after, .login__l-or:before {
+    position: absolute;
+    top: 6px;
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    background-color: #dddfe4;
+}
+
+.login__l-or:before {
+    left: 0;
+}
+
+@media (max-width: 768px)
+.login__l-or:after, .login__l-or:before {
+    width: 45%;
+}
+
+.login__l-or:after {
+    right: 0;
+}
+.login__l-or:after, .login__l-or:before {
+    position: absolute;
+    top: 6px;
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    background-color: #dddfe4;
+}
 
 .inputGroup label {
   display: block;
