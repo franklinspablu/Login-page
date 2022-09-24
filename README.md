@@ -1,5 +1,5 @@
 # Login Page
-Login Page
+Project of a single login page
 
 ## Technologies
 * HTML5
